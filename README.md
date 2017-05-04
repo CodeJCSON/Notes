@@ -18,7 +18,7 @@
 12. 图片轮播器卡顿的现象解决（数据源方大）
 13. 图像放大处理、图像整体上移
 14. 九宫格：for循环 i%2行 i/2列
-15. 网络请求：AFHTTPSessionManager单例对象，调用GET、POST方法block回调；再封装一次url、参数回调block的一层方法，共两层。
+15. 网络请求：AFHTTPSessionManager单例对象调用GET、POST方法block回调；再封装一次url、参数回调block的一层方法，共两层都是类方法。
 
 # swift、iOS、python、安卓、node.js、php
 
