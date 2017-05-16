@@ -39,7 +39,81 @@
 [ReactNative开发之IDE（Atom+Nuclide）安装，运行，调试](http://blog.csdn.net/hello_hwc/article/details/51612139)
 [ReactNative调试技巧](http://www.52learn.wang/archives/1071?utm_source=tuicool&utm_medium=referral)
 
+3. 创建React项目
 
 
+3. 创建ReactNative项目
+   * cd ReactNativeDemo目录
+   * react-native init 项目名称
 
+4. 运行项目方法 4.1 直接用Xcode运行
+              4.2 也可以用命令行运行 react-native run-ios/android
+   用命令行可以运行在两个平台上面
+
+5. 只要不是常量就用{}括起来,调用方法也是用{}
+
+6. {/*注释部分*/}
+
+7. var {width,height}= require('Dimensions').get('window');取得屏幕的宽度
+   var screenWidth = require('Dimensions').get('window').width(一般用这个吧，这个比较可靠)
+8. (sudo)npm install -g yarn react-native-cli
+
+9. 在真机上面运行，写入IP地址，并且手机的联网地址和电脑地址要一样
+   [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"]
+   [NSURL URLWithString:@"http://192.168.2.149:8081/index.ios.bundle?platform=ios&dev=true"]
+
+10. 在ReactNative中发现一个比较好的效果(也可以说是很神奇的效果，便于调试),(只要是在同一个网段内，这个没必要，但可以使用)并且程序运行在手机上面，在WebStorm上面修改的东西不需要再一次运行程序就能在手机上面看到效果。
+
+11. 安装定时器类库：
+    * 首先先cd 目录文件夹
+    * npm i react-timer-mixin --save
+    * var TimerMixin = require('react-timer-mixin');
+    * mixins: [TimerMixin]
+
+12. this调用的方法：
+       * 不加()就是把参数传过去
+       * 加上括号()不传参数
+
+13. 另一种调用方法：()=>{this.方法名+()}或()=>this.方法名+(),传参数就加上参数，不传就不加。
+
+14. 九空格实现ListView(内容里面有`内容样式属性`={style.contentStyle},对它进行设置)
+
+15. ListView显示列表，汽车列表：吸顶效果
+
+16. 定义一些变量，一块定义最后用分号；结尾就行
+
+17. padding 内边距，margin:内边距
+
+18. style={[styles.container,{backgroundColor:'red'}]};
+
+19. TabBarIOS
+
+20. navgator navgatorIOS用法不一样
+
+21. fetch
+
+22. debugger 打印断点，控制台输出，console.log()
+
+23. Runtime 热更新
+
+24. state中设置默认属性，setState中修改属性，在文本内显示属性this.state.title
+
+25. 组件和组件之间的传递：可以用属性进行传递；页面和页面之间的传递：可以通过导航之间的属性passProps传递
+
+26. 爱吃鱼的小灰
+
+27. 安卓和iOS不一样的地方：导航栏宽度，标签栏按钮图片，加载启动页的方式(安卓是使用定时器进行替换路由) 
+
+28. 我的设置界面，更多界面，商家界面，首页
+
+29. key一定要加在父组件上面
+
+30. cd 项目目录，sudo npm install
+
+31. &bull;
+
+32. Markdown写简历
+
+33. http://www.pc6.com/mac/136546.html
+  JDK下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
 
