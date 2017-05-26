@@ -108,7 +108,7 @@
 
 29. key一定要加在父组件上面
 
-30. cd 项目目录，sudo npm install
+30. cd 项目目录，sudo npm install(这是直接从github上面下载的RN项目)
 
 31. &bull;
 
@@ -116,4 +116,24 @@
 
 33. http://www.pc6.com/mac/136546.html
   JDK下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+  https://www.virtualbox.org/wiki/Downloads
+  http://www.genymotion.cn/#theme=download
+  start Genymotion
+  下载参考简书：http://www.jianshu.com/p/d2071bf01d5b
+  brew install gradle(https://gradle.org/install)
+34. RN开发、RN和OC混编、Swift和OC混编、Swift和RN混编
 
+35. WebStom设置React Native代码提示
+    1  从gitHub上下载xml插件
+git clone https://github.com/virtoolswebplayer/ReactNative-LiveTemplate  
+
+    2  安装
+将ReactNative.xml复制到 ~/Library/Preferences/WebStorm10/templates ，然后重启 WebStrom。
+
+36. (sudo)npm i react-native-tab-navigator --save 下载标签框架
+
+37. 
+   $ git clone https://github.com/JasonStu/ReactNative_Shopping.git
+   $ cd ReactNative_Shopping
+   $ npm install
+   $ react-native run-ios
