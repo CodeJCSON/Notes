@@ -137,3 +137,50 @@ git clone https://github.com/virtoolswebplayer/ReactNative-LiveTemplate
    $ cd ReactNative_Shopping
    $ npm install
    $ react-native run-ios
+
+
+
+
+
+
+
+
+
+### ReactNative 招聘信息
+
+## Windows配置和Android运行
+   ### 1.配置Android地址要设置端口：192.168.10.1:8081
+
+var Home = React.CreatClass({
+     
+   render:function(){ 
+      return(
+        <textarea style={{}} refs='textarea' />
+      )
+   },
+   
+   handleChange:function(){
+      给一个节点设置refs='textarea'
+      通过refs获取到DOMNode,value:React.findDOMNode(this.refs.textarea).value
+   }
+});
+
+React:React.render(<Home />,document.getElementById('exmple'));
+
+### 2.align-self设置组件本身相对于父组件的位置
+react中方法绑定事件，onclick.bind(this,参数,参数)
+
+### ReactNative生命周期
+
+1. 创建阶段
+getDefaultProps:function(),在创建类的时候就会被调用
+2. 实例化阶段
+
+3. 更新阶段
+
+4. 销毁阶段
+
+### 自定义组件可以<Box>{this.props.name}</Box>
+
+
+
